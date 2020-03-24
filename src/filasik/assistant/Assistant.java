@@ -1,11 +1,11 @@
 package filasik.assistant;
 
-import org.bukkit.craftbukkit.libs.jline.internal.InputStreamReader;
 import org.bukkit.event.Listener;
 import org.bukkit.plugin.java.JavaPlugin;
 
 import java.io.BufferedReader;
 import java.io.IOException;
+import java.io.InputStreamReader;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.net.URLConnection;
@@ -40,7 +40,7 @@ public class Assistant extends JavaPlugin implements Listener {
     private Thread updateChecker = new Thread() {
         @Override
         public void run() {
-            String currentVersionString="0.2.1";
+            String currentVersionString = "0.2.1";
             URL url = null;
             try {
                 url = new URL("https://api.spigotmc.org/legacy/update.php?resource=71410");
