@@ -11,6 +11,7 @@ import java.net.URL;
 import java.net.URLConnection;
 
 public class Assistant extends JavaPlugin implements Listener {
+    //#todo - inlude bstats
     String currentVersionString = "0.2.2b";
 
     private void loadConfiguration() {
@@ -61,6 +62,7 @@ public class Assistant extends JavaPlugin implements Listener {
             try {
                 assert conn != null;
                 BufferedReader reader = new BufferedReader(new InputStreamReader(conn.getInputStream()));
+                //#todo - doesnt work - allways shows the else cond
                 if (reader.readLine().equals(currentVersionString)) {
                     System.out.println("[ServerAssistant] We are UP TO DATE! No updates available. Your version: " + currentVersionString);
                 } else {
