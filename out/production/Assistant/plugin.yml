@@ -1,6 +1,6 @@
 name: ServerAssistant
 main: filasik.assistant.Assistant
-version: 0.2.1
+version: 0.2.2b
 author: Filasik
 website: www.filipskerik.eu
 description: Simple commands to show information about your server.
