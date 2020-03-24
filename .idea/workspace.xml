@@ -38,7 +38,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$USER_HOME$/Spigot1_15_2/spigot_api.jar!/" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
@@ -64,7 +64,7 @@
       <workItem from="1569351654919" duration="128000" />
       <workItem from="1579970737385" duration="2399000" />
       <workItem from="1580046625510" duration="3394000" />
-      <workItem from="1585059806079" duration="4174000" />
+      <workItem from="1585059806079" duration="5467000" />
     </task>
     <servers />
   </component>
@@ -72,6 +72,14 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="275" y="27" key="#Notifications" timestamp="1585066161017">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="275" y="27" key="#Notifications/0.0.1366.738/1366.-256.1920.1050@0.0.1366.738" timestamp="1585066161017" />
+    <state x="275" y="27" key="#Project_Structure" timestamp="1585066111433">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="275" y="27" key="#Project_Structure/0.0.1366.738/1366.-256.1920.1050@0.0.1366.738" timestamp="1585066111433" />
     <state x="531" y="257" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1585065514598">
       <screen x="0" y="0" width="1366" height="738" />
     </state>

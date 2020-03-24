@@ -11,6 +11,8 @@ import java.net.URL;
 import java.net.URLConnection;
 
 public class Assistant extends JavaPlugin implements Listener {
+    String currentVersionString = "0.2.2";
+
     private void loadConfiguration() {
         getConfig().options().copyDefaults(true);
         saveConfig();
@@ -20,6 +22,7 @@ public class Assistant extends JavaPlugin implements Listener {
     public void onEnable() {
         getLogger().info("---------------------------");
         getLogger().info("Assistant config loaded!");
+        getLogger().info("Your version: " + currentVersionString);
         getLogger().info("Assistant has been enabled!");
         getLogger().info("---------------------------");
         this.getCommand("assistant").setExecutor(new CommandAssistant());
@@ -40,7 +43,6 @@ public class Assistant extends JavaPlugin implements Listener {
     private Thread updateChecker = new Thread() {
         @Override
         public void run() {
-            String currentVersionString = "0.2.1";
             URL url = null;
             try {
                 url = new URL("https://api.spigotmc.org/legacy/update.php?resource=71410");
@@ -60,7 +62,7 @@ public class Assistant extends JavaPlugin implements Listener {
                 assert conn != null;
                 BufferedReader reader = new BufferedReader(new InputStreamReader(conn.getInputStream()));
                 if (reader.readLine().equals(currentVersionString)) {
-                    System.out.println("[ServerAssistant] We are UP TO DATE! No updates available.");
+                    System.out.println("[ServerAssistant] We are UP TO DATE! No updates available. Your version: " + currentVersionString);
                 } else {
                     System.out.println("[ServerAssistant] There is an update! Download it at https://www.spigotmc.org/resources/server-assistant.71410/");
                 }
