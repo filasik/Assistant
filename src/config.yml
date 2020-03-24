@@ -1,0 +1,19 @@
+text-website: Server website -
+server-website: www.example.eu
+console-website-shown: has shown server website
+
+text-discord: Server discord -
+server-discord: example.discord
+console-discord-shown: has shown server discord
+
+text-teamspeak: Server teamspeak -
+server-teamspeak: example.teamspeak
+console-teamspeak-shown: has shown server teamspeak
+
+text-facebook: Server facebook -
+server-facebook: example.facebook
+console-facebook-shown: has shown server facebook
+
+text-ip: Server ip -
+server-ip: example.ip
+console-ip-shown: has shown server ip

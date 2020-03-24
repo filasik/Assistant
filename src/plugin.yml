@@ -1,0 +1,25 @@
+name: ServerAssistant
+main: filasik.assistant.Assistant
+version: 0.2.1
+author: Filasik
+website: www.filipskerik.eu
+description: Simple commands to show information about your server.
+commands:
+  web:
+    description: Get server website
+    usage: /web
+  assistant:
+    description: this
+    usage: /assistant
+  discord:
+    description: discord
+    usage: /discord
+  teamspeak:
+    description: teamspeak
+    usage: /teamspeak
+  facebook:
+    description: facebook
+    usage: /facebook
+  ip:
+    description: ip
+    usage: /ip
