@@ -11,7 +11,7 @@ import java.net.URL;
 import java.net.URLConnection;
 
 public class Assistant extends JavaPlugin implements Listener {
-    String currentVersionString = "0.2.2";
+    String currentVersionString = "0.2.2b";
 
     private void loadConfiguration() {
         getConfig().options().copyDefaults(true);
